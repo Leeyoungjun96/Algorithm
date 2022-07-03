@@ -26,7 +26,7 @@ import java.util.*;
  */
 
 
-public class Two_Pointers_Algorithm01 {
+public class First_Two_Pointers_Algorithm {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
         ArrayList<Integer> answer = new ArrayList<>();
         int p1 = 0, p2 = 0;
@@ -40,7 +40,7 @@ public class Two_Pointers_Algorithm01 {
     }
 
     public static void main(String[] args) {
-        Two_Pointers_Algorithm01 T = new Two_Pointers_Algorithm01();
+        First_Two_Pointers_Algorithm T = new First_Two_Pointers_Algorithm();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] a = new int[n];
